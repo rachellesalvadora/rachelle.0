@@ -24,4 +24,40 @@ include "header.php";
 			</div>
 		</div>
 
-		
+		</div>
+
+<div class="container">
+
+<div class="inside-container">
+
+<div class="about-left">
+
+</div>
+
+<div class="about-right">
+	<img class ="about-img" src="img/about-img.jpg" alt="about me image">
+</div>
+
+</div>
+
+
+
+</div>
+
+<div class="container2">
+
+<div class="inside-container">
+
+<div class="about-left">
+
+</div>
+
+<div class="about-right">
+	<img class ="about-img" src="img/about-img.jpg" alt="about me image">
+</div>
+
+</div>
+
+
+
+</div>

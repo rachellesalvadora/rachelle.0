@@ -3,11 +3,19 @@ background-image: url("../img/background.jpg");
 background-size: cover;
 background-repeat: no-repeat;
 font-family: 'Open Sans', sans-serif;
+background-attachment: fixed;
 }
+
+
+/***************
+Navigation
+***************/
+
 
 .main-container {
 width: 940px;
 margin: 0 auto;
+margin-bottom: -15px;
 }
 
 
@@ -59,11 +67,36 @@ border-bottom: 1px solid;
     transform: skewY(-10deg);
 }
 
+/*****************
+Home Rachelle
+*****************/
+
 .rachelle {
-font-size: 826%;
+font-size: 847%;
 font-weight: bolder;
-margin: 28% auto 0;
+margin: 24% auto 0;
 opacity: 0.7;
-width: 84%;
+width: 65%;
 color: black;
+}
+
+/****************
+
+*****************/
+
+.container {
+height: 467px;
+background-color: white;
+margin: 0 -8px;
+}
+
+.about-img {
+width: 27%;
+float: right;
+border-top-left-radius: 270px;
+}
+
+.inside-container {
+width: 940px;
+margin: 0 auto;
 }

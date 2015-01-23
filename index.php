@@ -24,6 +24,8 @@ include "header.php";
 			</div>
 		</div>
 
+		</div>
+
 <h1 class="rachelle">
 	RACHELLE S.
 </h1>
