@@ -1,0 +1,69 @@
+body {
+background-image: url("../img/background.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+font-family: 'Open Sans', sans-serif;
+}
+
+.main-container {
+width: 940px;
+margin: 0 auto;
+}
+
+
+.navigation {
+display: inline-flex;
+list-style: none;
+padding-left: 0;
+}
+
+.nav-li {
+margin-left: 25px;
+font-size: 183%;
+font-weight: lighter;
+}
+
+.nav-li:nth-child(1) {
+margin-left: 0;
+}
+
+.nav-div {
+margin: 5% auto;
+width: 60%;
+}
+
+.nav-a {
+color: rgb(76, 76, 76);
+text-decoration: none;
+border-bottom: none;
+-webkit-transition: border-bottom 0.5s;
+  -moz-transition: border-bottom 0.5s;
+  -o-transition: border-bottom 0.5s;
+  transition: border-bottom 0.5s;
+}
+
+.nav-a:hover {
+	border-bottom: 2px solid black;
+ -webkit-transform: skewY(-10deg);
+    transform: skewY(-10deg);
+
+}
+
+.a-focus {
+border-bottom: 1px solid;
+}
+
+.a-focus:hover {
+	border-bottom: 2px solid black;
+ -webkit-transform: skewY(-10deg);
+    transform: skewY(-10deg);
+}
+
+.rachelle {
+font-size: 826%;
+font-weight: bolder;
+margin: 28% auto 0;
+opacity: 0.7;
+width: 84%;
+color: black;
+}
