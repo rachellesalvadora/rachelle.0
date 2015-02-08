@@ -28,11 +28,13 @@ margin-bottom: -15px;
 display: inline-flex;
 list-style: none;
 padding-left: 0;
+position: fixed;
+top: 0;
 }
 
 .nav-li {
 margin-left: 25px;
-font-size: 145%;
+font-size: 100%;
 font-weight: lighter;
 }
 
@@ -42,7 +44,7 @@ margin-left: 0;
 
 .nav-div {
 margin: 5% auto;
-width: 46%;
+width: 67%;
 }
 
 .nav-a {
@@ -76,10 +78,14 @@ border-bottom: 1px solid;
 Home Rachelle
 *****************/
 
+.rachelle-div {
+height: 700px;
+}
+
 .rachelle {
 font-size: 847%;
 font-weight: bolder;
-margin: 24% auto 0;
+margin: 300px auto 0;
 opacity: 0.6;
 width: 810px;
 color: black;
@@ -92,9 +98,10 @@ font-family: 'Open Sans', sans-serif;
 *****************/
 
 .container {
-height: 901px;
+height: 100%;
 background-color: white;
 margin: 0 -8px;
+background-size: contain;
 }
 
 /****************
@@ -104,6 +111,7 @@ left
 .about-left {
 float: left;
 border-bottom: dashed 9px rgb(142, 255, 143);
+margin-top: 75px;
 }
 
 .title {
@@ -150,7 +158,7 @@ margin: 0 auto;
 
 
 .about-p {
-font-size: 30px;
+font-size: 25px;
 text-align: center;
 float: left;
 width: 650px;
@@ -168,9 +176,10 @@ Container2
 
 .container2 {
 padding: 2.25em 1.6875em;
-
-height: 750px;
+height: 900px;
 background-color: rgb(99, 200, 147);
+margin: 0 -8px;
+color: white;
 }
 
 
@@ -181,7 +190,6 @@ width: 300px;
 .certificate {
 width: 320px;
 float: left;
-color: white;
 margin: 22px 45px 7px 0px;
 font-size: 16px;
 font-weight: 100;
@@ -190,14 +198,21 @@ font-weight: 100;
 .p-cs50.challenge {
 font-size: 50px;
 font-weight: 100;
-color: white;
 margin-bottom: 0;
 margin-top: 75px;
 }
 
+.down {
+position: relative;
+bottom: 0;
+text-align: center;
+width: 100px;
+margin: 0 auto;
+font-size: 75px;
+}
+
 .p-cs50 {
-color: white;
-font-size: 30px;
+font-size: 29px;
 text-align: center;
 font-weight: 100;
 margin-top: 22px;
@@ -205,12 +220,54 @@ margin-top: 22px;
 
 .p-cs50:last-child {
 padding-bottom: 100px;
-font-size: 18px;
+font-size: 16px;
 }
 
 .cs50-link {
-font-size: 20px;
-font-weight: 500;
+font-size: 19px;
+font-weight: 300;
 color: black;
 }
 
+
+.container-footer {
+height: 100px;
+background-color: beige;
+}
+
+.cs50-div {
+margin-top: 135px;
+}
+
+
+/****************
+***************/
+.container2 {
+background-color: rgb(99, 200, 147);
+margin: -8px;
+height: 100%;
+padding-top: 70px;
+color: white;
+}
+
+.timeline {
+padding-top: 160px;
+padding-bottom: 65px;
+}
+
+.container3 {
+background: white;
+height: 100%;
+}
+
+h1 {
+color: white;
+text-shadow: black 2px 2px 1px;
+}
+
+.intro p {
+width: 50%;
+margin: 0 auto;
+font-size: 1.5em;
+text-shadow: black 1px 2px 1px;
+}
